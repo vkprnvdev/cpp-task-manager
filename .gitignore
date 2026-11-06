@@ -1,85 +1,67 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
 build/
 Build/
 build-*/
+cmake-build-*/
+out/
 
-# CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 install_manifest.txt
+Testing/
+CTestTestfile.cmake
+_deps/
+
+*.d
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+
+*.exe
+*.out
+*.app
+*.pdb
+*.ilk
+*.dwo
+task_server
+
+vcpkg_installed/
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.sln
+*.vcxproj*
+.clangd/
+.cache/
 compile_commands.json
 
-# Temporary files
 *.tmp
 *.log
 *.bak
 *.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
-
-
-# C++ Build
-build/
-cmake-build-*/
-*.o
-*.out
-*.exe
-
-# React / Node
-frontend/node_modules/
-frontend/dist/
-.env
-
-# IDE
-.vscode/
-compile_commands.json
+*~
+.DS_Store
+Thumbs.db
